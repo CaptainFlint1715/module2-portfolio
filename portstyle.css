@@ -1,0 +1,135 @@
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+body {
+    overflow-x: hidden;
+    background-color: #063835;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 18px;
+
+}
+
+header {
+    background-color: #031413;
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    justify-content: space-between;
+    display: flex, block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+   
+}
+
+h1 {  
+    font-size: 68px;
+    color: coral;
+}
+
+nav ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+nav ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    font-size: 24px;
+    color: #1cf4c8;
+}
+
+nav ul li:hover {
+    cursor: grab;
+    text-decoration: underline;
+    color: coral;
+}
+
+#about::before {
+    font-size: 28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    content: "TAKE A CHANCE ON ME!";
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: solid;
+}
+main {
+    color: ;
+    display: block, flex;
+    flex-wrap: wrap;
+    
+}
+
+.about {
+    display: inline-block;
+    align-content: space-between;
+
+}
+
+}
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    color: coral;
+}
+
+h3 {
+    font-size: 22px;
+    color: #1cf4c8;
+}
+#prof {
+    max-width: 100%;
+    height: auto;
+}
+
+#sgp {
+    height: 250px;
+    width: 400px;
+    
+}
+
+#hcr {
+    height: 300px;
+    width: 180px;
+}
+
+#rf {
+    height: 180px;
+    width: 280px;
+}
+
+#contact a {
+    margin-right: 20px;
+}
+
+#git:hover {
+    color: rgb(136, 33, 200);
+    cursor: pointer;
+}
+
+#work img:hover {
+    opacity: .5;
+}
+@media screen and (max-width: 474px) {
+    nav ul {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    nav ul li {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+    }
+     
+}
+
+
