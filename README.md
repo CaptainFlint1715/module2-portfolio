@@ -12,7 +12,7 @@ N/A
 
 Navigate the page using the links provided on the header bar. Images also provide links to relevant projects.
 
-#Credits
+##Credits
 
 https://developer.mozilla.org/en-US/
 
