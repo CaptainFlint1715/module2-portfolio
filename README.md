@@ -18,4 +18,4 @@ https://developer.mozilla.org/en-US/
 
 ## License
 
-Please refer to the LISENCE in the repo.
+Please refer to the LICENSE in the repo.
